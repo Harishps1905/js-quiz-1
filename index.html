@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Js-quiz-1</title>
+</head>
+<body>
+    
+    <h1>This is the best Quiz in the internet</h1>
+
+    <form id="form1" name="quiz" action="">
+        <p>Capital of India</p>
+        <input type="text" id="t-box" name="question1">
+
+        <p>Father of our Nation</p>
+        <div><input type="radio" value="Mahathma Gandhi" name="question2" id="mc">Mahathma Gandhi</div>
+        <div><input type="radio" value="Jawaharlal Nehru" name="question2" id="mc">Jawaharlal Nehru</div>
+
+        <p>which year india got independence?</p>
+        <div><input type="radio" value="1957" name="question3" id="mc">1957</div>
+        <div><input type="radio" value="1947" name="question3" id="mc">1947</div>
+        
+        <button type="button" id="btn" onclick="check()">I'm finished </button>
+
+    </form>
+
+    <div id="after-finish">
+        <p id="num-crt"></p>
+        <p id="message"></p>
+        <img id="pic">
+    </div>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
