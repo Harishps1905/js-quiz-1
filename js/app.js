@@ -15,7 +15,7 @@ check = () => {
     }
 
     var messages = ["Good job DOOD", "Thats ok man", "You really need to work on it  DOOD"];
-    var pictures = ["../images/winner.gif", "../images/notbad.gif", "../images/lose.gif"];
+    var pictures = ["../images/winner.jpg", "../images/notbad.jpg", "../images/lose.jpg"];
     var range = 0;
 
     if (correct < 1) {
